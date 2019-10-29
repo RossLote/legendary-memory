@@ -19,7 +19,7 @@ If you need to re-run the Postman tests you will need to re-seed the database:
 
 `dotnet ef database update 0 && dotnet ef database update`
 
-I normally wouldn't recommend dropping databases just for re-seeding but for this demo I think it's acceptable.
+I normally wouldn't recommend dropping database tables just for re-seeding but for this demo I think it's acceptable.
 
 ## Documentation
 To access the swagger documentation start the dev server and visit `http://localhost:5000/`
