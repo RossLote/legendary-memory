@@ -10,6 +10,10 @@ For development I used MSSQL server. I have not tested this on any other databas
 6. run `dotnet run`
 7. You should now be able to run the Postman tests.
 
+## Troubleshooting
+
+I've found that on my system I get permission errors when trying to perform the migrations. Running `export DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true` solves this for me.
+
 ## Re-seed that database
 If you need to re-run the Postman tests you will need to re-seed the database:
 
